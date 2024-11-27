@@ -1,0 +1,89 @@
+@font-face {
+  font-family: Moderne Sans;
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/moderne_sans.woff2)
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-size: cover;
+}
+h1{
+  text-align:   center;
+}
+.sbor {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form{
+  width: 600px;
+  padding:  35px;
+  border-radius: 10px;
+  box-shadow:0 4px 16px #ccc ;
+  font-family:  sans-serif  ;
+  letter-spacing:   1px;
+}
+
+.form_input,
+.form_button{
+  font-family: sans-serif ;
+  letter-spacing:   1px;
+  font-size:  16px;
+  padding: 10px;
+  margin-top: 10px;
+}
+.form_title{
+  text-align:   center;
+  margin:0 0 35px;
+  font-weight:  normal;
+}
+.form_group{
+  position:realtive;
+  margin-button:32px;
+}
+.form_label{
+  position:   relative   ;
+  top: 1;
+  z-index:  1;
+  color:#black  ;
+  translate:  0,2s;
+}
+
+.form_input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+
+
+}
+.form_input {
+  border-bottom:  1px solid #1a73a8;
+
+}
+.form_button  {
+  padding:  10px 20 px;
+  border:   none;
+  border-radius:  5px;
+  color: white;
+  background-color:  black;
+  outline:none;
+  cursor:pointer;
+  transition:   0,2s;
+}
+
+label {
+    display: flex;
+align-items: center;
+}
+ .checkbox-container {
+            display: flex;
+            align-items: center;
+        }
+        .checkbox-label {
+            margin-left: 10px;
+        }
